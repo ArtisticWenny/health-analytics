@@ -51,9 +51,12 @@ elif systolic >= 120 and systolic <= 129 and diastolic < 80:
     print("This blood pressure is prehypertensive")
 elif systolic >= 130 and systolic <= 139 or diastolic >= 80 and diastolic <= 89:
     print('\n')
-    print("This is blood pressure is stage 1 hypertensive")
-else:
-    print("This is blood pressure is stage 2 hypertensive")
+    print("This blood pressure is stage 1 hypertensive")
+elif systolic >= 140 and systolic <=149 or diastolic >= 90:
+    print('\n')
+    print("This blood pressure is stage 2 hypertensive")
+elif systolic >= 180 and diastolic >= 120:
+    print("!HYPERTENSIVE CRISIS! Seek Medical Care Immediately")
 
     
 
